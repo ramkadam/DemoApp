@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.hogo.my_sqlitedatabase_app.View_List">
+
+    <EditText
+        android:id="@+id/MainActivity_name_ET"
+        android:layout_width="match_parent"
+        android:hint="Enter Name"
+        android:layout_margin="10dp"
+        android:background="@android:color/background_light"
+        android:layout_height="50dp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:layout_height="150dp">
+
+        <EditText
+            android:id="@+id/MainActivity_description_ET"
+            android:layout_width="match_parent"
+            android:hint="Enter Description"
+            android:layout_gravity="top"
+            android:background="@android:color/background_light"
+            android:gravity="top"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:background="@android:color/background_light"
+        android:weightSum="2"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/MainActivity_add_BT"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="Add"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:id="@+id/MainActivity_view_BT"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="View"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
